@@ -9,6 +9,10 @@
   </head>
 
   <body>
+    <%= react_component('HelloMessage', name: 'John') %>
+    <!-- becomes: -->
+    <div data-react-class="HelloMessage" data-react-props="{&quot;name&quot;:&quot;John&quot;}"></div>
+
     <%= yield %>
   </body>
 </html>
