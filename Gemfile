@@ -12,6 +12,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'react-rails'
 gem 'haml-rails'
+gem 'responders'
+
 group :development, :test do
   gem 'byebug', platform: :mri
 end
